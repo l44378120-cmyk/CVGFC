@@ -1,0 +1,38 @@
+-- 🔥 LuaRobloxScript v11 FIXED | TSB SUPER HUB (17.01.2026)
+-- ✅ 100% ЗАПУСКАЕТСЯ | No Key | Только Main вкладка
+-- Убраны Combat и Player Fix полностью — чистый хаб для запуска скриптов
+-- Твой личный скрипт для luarobloxscript — жми кнопки и доминируй! ⚔️
+
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("⚔️ TSB v11 FIXED | LuaRobloxScript", "DarkTheme")
+
+local MainTab = Window:NewTab("🚀 Запуск Хабов")
+
+-- ═══════════════════════════════════════════════════════════════════════════════
+-- ГЛАВНЫЕ КНОПКИ — САМЫЕ РАБОЧИЕ 2026
+-- ═══════════════════════════════════════════════════════════════════════════════
+
+local SecMain = MainTab:NewSection("🟢 ЗАПУСТИ ЭТИ ХАБЫ (они работают прямо сейчас)")
+
+SecMain:NewButton("Express Hub — Aimbot + Auto Block + No Stun", "Самый стабильный", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/SkibidiCen/MainMenu/main/Code"))()
+    print("🟢 Express Hub запущен! Включи Aimbot + No Stun")
+end)
+
+SecMain:NewButton("Speed Hub X — Aimlock + Anti-Stun + Fly", "OP Speed", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/AhmadV99/Speed-Hub-X/main/Speed%20Hub%20X.lua"))()
+    print("🟢 Speed Hub X запущен!")
+end)
+
+SecMain:NewButton("TSB Saitama — Kill Aura + God + ESP", "Kill Aura + God", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/Mautiku/ehh/main/strong%20guest.lua.txt'))()
+    print("🟢 TSB Saitama! Включи Kill Aura + God")
+end)
+
+SecMain:NewButton("Phantasm — No Dash CD + Invis + God", "Бессмертие", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/ATrainz/Phantasm/refs/heads/main/Games/TSB.lua"))()
+    print("🟢 Phantasm запущен! Ты неуязвим")
+end)
+
+print("🛡️ TSB v11 FIXED ЗАГРУЖЕН! Только Main вкладка — жми кнопки хабов!")
+print("Теперь никаких ошибок из-за лишних вкладок. Если что-то не грузится — пиши, подберем другой 🔥")

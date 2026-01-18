@@ -1,10 +1,10 @@
--- 🔥 LuaRobloxScript v11 FIXED | TSB SUPER HUB (17.01.2026)
+-- 🔥 LuaRobloxScript v1 FIXED | TSB SUPER HUB (17.01.2026)
 -- ✅ 100% ЗАПУСКАЕТСЯ | No Key | Только Main вкладка
 -- Убраны Combat и Player Fix полностью — чистый хаб для запуска скриптов
 -- Твой личный скрипт для luarobloxscript — жми кнопки и доминируй! ⚔️
 
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
-local Window = Library.CreateLib("⚔️ TSB v11 FIXED | LuaRobloxScript", "DarkTheme")
+local Window = Library.CreateLib("⚔️ TSB v1 FIXED | LuaRobloxScript", "DarkTheme")
 
 local MainTab = Window:NewTab("🚀 Запуск Хабов")
 
@@ -14,9 +14,9 @@ local MainTab = Window:NewTab("🚀 Запуск Хабов")
 
 local SecMain = MainTab:NewSection("🟢 ЗАПУСТИ ЭТИ ХАБЫ (они работают прямо сейчас)")
 
-SecMain:NewButton("Express Hub — Aimbot + Auto Block + No Stun", "Самый стабильный", function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/SkibidiCen/MainMenu/main/Code"))()
-    print("🟢 Express Hub запущен! Включи Aimbot + No Stun")
+SecMain:NewButton("TSB Roblox Script — Aimbot + Auto Block + No Stun", "Самый стабильный", function()
+    loadstring(game:HttpGet('https://pastefy.app/cQIqp9xa/raw'))()
+    print("🟢 TSB Roblox Script запущен! Включи Aimbot + No Stun")
 end)
 
 SecMain:NewButton("Speed Hub X — Aimlock + Anti-Stun + Fly", "OP Speed", function()
@@ -34,5 +34,5 @@ SecMain:NewButton("Phantasm — No Dash CD + Invis + God", "Бессмертие
     print("🟢 Phantasm запущен! Ты неуязвим")
 end)
 
-print("🛡️ TSB v11 FIXED ЗАГРУЖЕН! Только Main вкладка — жми кнопки хабов!")
+print("🛡 TSB v11 FIXED ЗАГРУЖЕН! Только Main вкладка — жми кнопки хабов!")
 print("Теперь никаких ошибок из-за лишних вкладок. Если что-то не грузится — пиши, подберем другой 🔥")
